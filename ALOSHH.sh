@@ -1,7 +1,7 @@
 #!/bin/bash
 cd $(cd $(dirname $0); pwd)
 echo -e '\e[1m\e[31m
-relaxsource is being installed, 
+ALOSHHsource is being installed, 
 Please wait until the installation is complete
 \033[0m'
 echo -e '\033[0;33m
@@ -45,12 +45,12 @@ sudo luarocks install luasocket
 cd ../..
 rm -rf tmp
 unzip luatele.zip
-sudo lua5.3 relax.lua
+sudo lua5.3 ALOSHH.lua
 ;;
 2)
 echo -e "\e[1m\e[32mThe bot is running now : جاري تشغيل البوت الان : \e[0m"
 sleep 2
 unzip luatele.zip
-sudo lua5.3 relax.lua
+sudo lua5.3 ALOSHH.lua
 ;;
 esac
